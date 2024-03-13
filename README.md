@@ -25,7 +25,7 @@ After choosing an action, the user is guided through the needed input for the ac
 The program flow consists of the following menus:
 
 ###### 1. Start Menu
-![start_menu](docs\menu_flow\0_start_menu.png)
+![start_menu](docs/menu_flow/0_start_menu.png)
 
 This menu is the entry point of the application. The user can choose to register as a new user, login to an existing profile or to delete an existing user profile. The last option is to close the application.
 
@@ -33,51 +33,51 @@ In the following, you will see example screenshots for each available action.
 
 <u>Register as a new user:</u>
 
-![register_user](docs\menu_flow\register_user.png)
+![register_user](docs/menu_flow/register_user.png)
 
 <u>Deletion of an existing user profile:</u>
 
 
-![delete_user](docs\menu_flow\delete_user.png)
+![delete_user](docs/menu_flow/delete_user.png)
 
 <u>Login of user: </u>
 
-![login_user](docs\menu_flow\login_user.png)
+![login_user](docs/menu_flow/login_user.png)
 
 <u>Exiting the habit tracker: </u>
 
-![exit_from_main_menu](docs\menu_flow\exit_habit_tracker_in_main_menu.png)
+![exit_from_main_menu](docs/menu_flow/exit_habit_tracker_in_main_menu.png)
 
 ###### 2. Main Menu
 
 After a user has logged in, the main menu is entered, allowing for the user to choose between tracking new data or analysing existing one:
 
-![main_menu](docs\menu_flow\1_main_menu.png)
+![main_menu](docs/menu_flow/1_main_menu.png)
 
 ###### 3. Tracking Menu
 
 Entering the habit tracking menu, displays the following options:
 
-![tracking_menu](docs\menu_flow\2a_habit_tracking_menu.png)
+![tracking_menu](docs/menu_flow/2a_habit_tracking_menu.png)
 
 In the following, you will see example screenshots for each available action.
 
 <u>Creating a new habit:</u>
 
-![create_habit](docs\menu_flow\create_habit.png)
+![create_habit](docs/menu_flow/create_habit.png)
 
 <u>Deletion of an existing habit:</u>
 
-![delete_habit](docs\menu_flow\delete_habit.png)
+![delete_habit](docs/menu_flow/delete_habit.png)
 
 
 <u>Deletion of checkoffs:</u>
 
-![delete_checkoff](docs\menu_flow\delete_checkoff.png)
+![delete_checkoff](docs/menu_flow/delete_checkoff.png)
 
 <u>Creation of new checkoffs:</u>
 
-![create_checkoff](docs\menu_flow\create_checkoff.png)
+![create_checkoff](docs/menu_flow/create_checkoff.png)
 
 
 ###### 4. Tracking Menu
@@ -85,7 +85,7 @@ In the following, you will see example screenshots for each available action.
 
 if in the main menu, (see 2. Main Menu) the action: "Analyse your habits!" was chosen, the following choces appear:
 
-![analysis_menu_first](docs\menu_flow\2b_habit_analysis_menu.png)
+![analysis_menu_first](docs/menu_flow/2b_habit_analysis_menu.png)
 
 ###### 4.1 Single Habit Tracking Menu
 
@@ -93,11 +93,11 @@ For the option of analysing a specific habit, the following actions can be under
 
 <u>Printing out basic information for a single habit:</u>
 
-![basic_info_single](docs\menu_flow\print_basic_habit_info_single.png)
+![basic_info_single](docs/menu_flow/print_basic_habit_info_single.png)
 
 <u>Printing out the analysis of a single habit:</u>
 
-![basic_analysis_single](docs\menu_flow\print_analysis_info_single.png)
+![basic_analysis_single](docs/menu_flow/print_analysis_info_single.png)
 
 ###### 4.2 Grouped Habit Tracking Menu
 
@@ -105,19 +105,19 @@ For the option of analysing grouped habits, the following actions can be underta
 
 <u>Printing out basic information for a group of habits:</u>
 
-![basic_info_group](docs\menu_flow\print_basic_habit_info_group.png)
+![basic_info_group](docs/menu_flow/print_basic_habit_info_group.png)
 
 <u>Printing out the analysis of a group of habits:</u>
 
-![analysis_group](docs\menu_flow\print_analysis_info_habit_group.png)
+![analysis_group](docs/menu_flow/print_analysis_info_habit_group.png)
 
 <u>Printing out the maximal steak length for a group of habits:</u>
 
-![analysis_group_max_streak](docs\menu_flow\print_max_max_streak.png)
+![analysis_group_max_streak](docs/menu_flow/print_max_max_streak.png)
 
 <u>Printing out the lowest success rate for a group of habits:</u>
 
-![analysis_group_lowest_success](docs\menu_flow\print_lowest_success_rates.png)
+![analysis_group_lowest_success](docs/menu_flow/print_lowest_success_rates.png)
 
 ## **Testing the Application**
 To test the application, run
@@ -146,52 +146,52 @@ Detailed description and visualization of the test tracking data is provided her
 ###### 1. Example Habit "plan_monthly":
 An example for a habit with monthly periodicity and the following Habit instance attributes:
 
-![monthly_habit_basic_info](docs\test_objects\monthly_basic.png "monthly_habit_basic_info")
+![monthly_habit_basic_info](docs/test_objects/monthly_basic.png "monthly_habit_basic_info")
 
 The pre-logged checkoffs are:
 
-![checkoffs_monthly](docs\test_objects\checkoffs_monthly.png "checkoffs_monthly")
+![checkoffs_monthly](docs/test_objects/checkoffs_monthly.png "checkoffs_monthly")
 
 ###### 2. Example Habit "restock_three_times_biweekly":
 An example for a habit with biweekly periodicity and the following Habit instance attributes:
 
-![biweekly_habit_basic_info](docs\test_objects\biweekly_basic.png "biweekly_habit_basic_info")
+![biweekly_habit_basic_info](docs/test_objects/biweekly_basic.png "biweekly_habit_basic_info")
 
 The pre-logged checkoffs are:
 
-![checkoffs_biweekly](docs\test_objects\checkoffs_biweekly.png "checkoffs_weekly")
+![checkoffs_biweekly](docs/test_objects/checkoffs_biweekly.png "checkoffs_weekly")
 
 ###### 3. Example Habit "skin_care_daily":
 The first example for a habit with daily periodicity and the following Habit instance attributes:
 
-![daily1_habit_basic_info](docs\test_objects\daily1_basic.png "daily1_habit_basic_info")
+![daily1_habit_basic_info](docs/test_objects/daily1_basic.png "daily1_habit_basic_info")
 
 The pre-logged checkoffs are:
 
-![checkoffs_daily1](docs\test_objects\checkoffs_daily1.png "checkoffs_daily")
+![checkoffs_daily1](docs/test_objects/checkoffs_daily1.png "checkoffs_daily")
 
 When we filter the checkoffs using the start date '2024-01-16', we get the following checkoffs and corresponding period numbers:
 
-![checkoffs_weekly](docs\test_objects\checkoffs_daily1_filtered.png "checkoffs_daily1")
+![checkoffs_weekly](docs/test_objects/checkoffs_daily1_filtered.png "checkoffs_daily1")
 
 ###### 4. Example Habit "sleep_daily":
 The second example for a habit with daily periodicity and the following Habit instance attributes:
 
-![daily2_habit_basic_info](docs\test_objects\daily2_basic.png "daily2_habit_basic_info")
+![daily2_habit_basic_info](docs/test_objects/daily2_basic.png "daily2_habit_basic_info")
 
 The pre-logged checkoffs are:
 
-![checkoffs_daily2](docs\test_objects\checkoffs_daily2.png "checkoffs_daily2")
+![checkoffs_daily2](docs/test_objects/checkoffs_daily2.png "checkoffs_daily2")
 
 ###### 5. Example Habit "climb_weekly":
 An example for a habit with weekly periodicity and the following Habit instance attributes:
 
-![weekly_habit_basic_info](docs\test_objects\weekly_basic.png "weekly_habit_basic_info")
+![weekly_habit_basic_info](docs/test_objects/weekly_basic.png "weekly_habit_basic_info")
 
 The pre-logged checkoffs are:
 
-![checkoffs_weekly](docs\test_objects\checkoffs_weekly.png "checkoffs_weekly")
+![checkoffs_weekly](docs/test_objects/checkoffs_weekly.png "checkoffs_weekly")
 
 When we filter the checkoffs using the start date '2023-12-07', we get the following checkoffs and corresponding period numbers:
 
-![checkoffs_weekly](docs\test_objects\checkoffs_weekly_filtered.png "checkoffs_weekly")
+![checkoffs_weekly](docs/test_objects/checkoffs_weekly_filtered.png "checkoffs_weekly")
